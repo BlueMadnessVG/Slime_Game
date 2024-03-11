@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - sword
+  - target
+  - Enemy
+  - DeadZone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 681091197
+    locked: 0
+  - name: Enemy
+    uniqueID: 618926499
+    locked: 0
+  - name: Decor
+    uniqueID: 1826632315
+    locked: 0
+  - name: Ground
+    uniqueID: 3698409869
+    locked: 0
+  - name: Target
+    uniqueID: 2598847883
+    locked: 0
+  - name: Player
+    uniqueID: 519993525
+    locked: 0
+  - name: Weapon
+    uniqueID: 1295514081
+    locked: 0
