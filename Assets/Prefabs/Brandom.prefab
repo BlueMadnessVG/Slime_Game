@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8562442174021489531}
   - component: {fileID: 6125188747870660985}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Brandom
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

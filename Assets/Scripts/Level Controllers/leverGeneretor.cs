@@ -16,35 +16,35 @@ public class leverGeneretor : MonoBehaviour
     private void Start()
     {
         cd = GetComponentInChildren<CompositeCollider2D>();
-        groundEnd = transform.position.x + ( cd.bounds.size.x / 2 );
+        groundEnd = transform.position.x + (cd.bounds.size.x / 2);
     }
 
     private void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
     {
         screenhedge = (Camera.main.aspect * Camera.main.orthographicSize) + Camera.main.transform.position.x;
 
-        if ( groundEnd < (Camera.main.transform.position.x - (Camera.main.aspect * Camera.main.orthographicSize) * 2))
+        if (groundEnd < (Camera.main.transform.position.x - (Camera.main.aspect * Camera.main.orthographicSize) * 2))
         {
             Destroy(gameObject);
             return;
         }
 
-        if ( (groundEnd < screenhedge) && !didGenerateGround )
+        if ((groundEnd < screenhedge) && !didGenerateGround)
         {
             didGenerateGround = true;
             generateGround();
         }
-        
+
     }
 
     private void generateGround()
     {
-        GameObject go = Instantiate( gameObject );
+        GameObject go = Instantiate(gameObject);
         Vector2 pos;
 
         pos.x = groundEnd + 20;
